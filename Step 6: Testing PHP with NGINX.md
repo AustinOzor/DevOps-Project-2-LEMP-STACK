@@ -29,3 +29,10 @@ If the PHP test file executes correctly and displays the PHP information, it ind
 
 Our configuratio is working perfectly as shown below:
 ![php working](https://github.com/AustinOzor/DevOps-Project-2-LEMP-STACK/assets/99667583/f74cfe73-b530-4db9-8bcb-7ee88ca3b27a)
+
+It is good practice to remove the PHP info file (e.g., test.php or info.php) from your server after you have finished checking the PHP configuration. 
+To remove the file, you can use the rm command with sudo:
+```
+sudo rm /var/www/html/project2/info.php
+```
+Executing this command will delete the PHP info file from the specified location. Removing the file helps to ensure that sensitive information about your PHP environment and server configuration is no longer accessible.
