@@ -112,8 +112,9 @@ The new site you enabled at /var/www/html/project2 is empty. To create a simple 
        <title>My Simple Website</title>
    </head>
    <body>
-       <h1>Welcome to Project 2</h1>
-       <p>This is a basic HTML website served by Nginx.</p>
+       <h1>Welcome to DevOps Project 2!</h1>
+       <p>This is a simple welcome page served by Nginx.</p>
+       <p>Project 2 is live</p>
    </body>
    </html>
    ```
@@ -143,6 +144,8 @@ The new site you enabled at /var/www/html/project2 is empty. To create a simple 
    Nginx is now configured to serve the HTML file you created.
 
    Visit your server's public IP address or domain name in a web browser. You should see your simple HTML website displayed.
+   
+   ![text index in nginx](https://github.com/AustinOzor/DevOps-Project-2-LEMP-STACK/assets/99667583/51029b9b-6fb0-4b50-a4f4-67c6a860b9ce)
 
 
 
